@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./keyframe.css">
+
+    <script defer src="./index.js"></script>
+    <script defer src="./slider.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="icon">
+                <img width="48" height="48" src="https://img.icons8.com/fluency/48/split.png" alt="split" />
+                <h4>Split It</h4>
+            </div>
+            <div class="nav-btn">
+                <button class="login">Login</button>
+                <button class="signup">Signup</button>
+            </div>
+        </div>
+        <div class="slider">
+            <div id="left" class="left"><img onclick="previousImg()" width="40" height="40"
+                    src="https://img.icons8.com/ios-glyphs/30/circled-left.png" alt="circled-left" />
+            </div>
+
+            <div id="slider-image" class="slider-img">
+                
+            </div>
+
+            <div id="right" class="right"><img onclick="nextImg()" width="40" height="40"
+                    src="https://img.icons8.com/ios-glyphs/30/circled-right.png" alt="circled-right" />
+            </div>
+        </div>
+        <div class="start-content">
+            <h2>Wanna Start Calculating Expenses ?</h2>
+            <h3>Start Now !</h3>
+            <img class="bounce" width="64" height="64" src="https://img.icons8.com/sf-black/64/down.png" alt="down" />
+        </div>
+        <div class="expense-container">
+            <div class="total-expense">
+                <h2>Total Expense </h2>
+            </div>
+        </div>
+        <div class="users-content-container">
+            <div>
+                Add User : <input type="text" placeholder="Name" value=""/>
+                <button>Create</button>
+            </div>
+            <div id="users">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
